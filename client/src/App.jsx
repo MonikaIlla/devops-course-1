@@ -38,7 +38,7 @@ function App() {
       setIsDialogOpen(false);
       return { success: true };
     } 
-    int a=10;
+    //int a=10;
     catch (err) {
       console.error('Error creating task:', err);
       return {
