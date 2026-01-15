@@ -37,7 +37,9 @@ function App() {
       setTasks((prevTasks) => [response.data, ...prevTasks]);
       setIsDialogOpen(false);
       return { success: true };
-    } catch (err) {
+    } 
+    int a=10;
+    catch (err) {
       console.error('Error creating task:', err);
       return {
         success: false,
